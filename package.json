@@ -1,0 +1,27 @@
+{
+  "name": "cirrus-webserver",
+  "version": "0.0.1",
+  "description": "cirrus web server",
+  "scripts": {
+    "dev": "node ./webpack/server.js",
+    "build": "node ./webpack/build.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.15.6",
+    "gl-matrix": "^3.4.3",
+    "html-webpack-plugin": "^5.5.0",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.74.0",
+    "webpack-dev-middleware": "^5.3.3"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^2.0.6",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "webpack-hot-middleware": "^2.26.0"
+  }
+}

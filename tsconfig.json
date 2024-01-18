@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es2017",
+      "dom",
+      "esnext"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": [
+        "./src/*"
+      ],
+    },
+    "checkJs": false,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "outDir": ".js-out",
+    "downlevelIteration": true,
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
